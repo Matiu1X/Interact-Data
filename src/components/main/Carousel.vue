@@ -5,27 +5,43 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="@/static/img/Carousel1.jpeg" class="d-block w-100" alt="..." style="height:25rem;">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                         <p style="color:black;">Nulla vitae elit libero, a pharetra augue mollis interdu.</p>
+                        <h5>Dinámico y Ergonómico</h5>
+                         <p>Acceso a tu información facil y rapido, como te gusta</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/facebook_share/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=6QG07anP" class="d-block w-100" alt="..." style="height:25rem;">
+                    <img src="@/static/img/Carousel2.jpg" class="d-block w-100" alt="..." style="height:25rem;">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h5>Uso de software especializado</h5>
+                        <p>Para el analisis de tu información usamos las mejores herramientas</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://www.hola.com/imagenes/estar-bien/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg" class="d-block w-100" alt="..." style="height:25rem;">
+                    <img src="@/static/img/Carousel3.png" class="d-block w-100" alt="..." style="height:25rem;">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h5>Personal especializado</h5>
+                        <p>Nuestro personal, completamente profesional, especializado y de confianza.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="@/static/img/Carousel4.jpg" class="d-block w-100" alt="..." style="height:25rem;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Acceso en todo momento y lugar</h5>
+                        <p>Tu información a tu alcance cuando quieras.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="@/static/img/Carousel5.jpg" class="d-block w-100" alt="..." style="height:25rem;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>!!!Seguridad¡¡¡</h5>
+                        <p>Tu información accesible solo para ti y para nosotros.</p>
                     </div>
                 </div>
             </div>
@@ -52,5 +68,10 @@ export default {
 <style scoped>  
     p{
         color: black;
+        background: #FDF5BF;
+    }
+    h5{
+        color: black;
+        background: #FDF5BF;
     }
 </style>

@@ -7,10 +7,7 @@
       </div>
       <div class="row justify-content-center text-center ml-0 mr-0 pt-5">
         <v-card style="width:30rem;" elevation="2">
-          <div class="container-fluid mb-3 mt-3">
-            <img src="@/static/icon/icon_picto.svg" alt="logo" style="width:18rem;">
-          </div>
-          <h1>!Bienvenido a Mobi¡</h1>
+          <h1>!Bienvenido a Interact-Data¡</h1>
           <the-login></the-login>
         </v-card>
       </div>
